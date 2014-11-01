@@ -15,4 +15,4 @@ tags: ["说明,日志"]
 
 ### 题外话
 选择GitHub作为托管站，没有太多原因，作为一个程序猿，还是有必要跟随一下潮流吧，另外也给别人点高大上的感觉吧^_^
-折腾这个Blog可真费老劲了，又是重温Git命令，又是熟悉GitHub Pages，还要了解Jekyll，学习MarkDown，选择评论系统等等等等，最后页面还弄的相当难看，clone了JB也是相当的难看，最后没办法，自己弄实在太花时间了，对UI也比较没品位，所以只能借用别人的风格了，最后选的是[Xuewen Pan's blog](http://www.winfirm.cn/) [(source)](https://github.com/panxw/panxw.github.com)这个样式，然后自己改了一下，先这样吧，以后有更好的再说，当然也欢迎各位高人帮忙。
+折腾这个Blog可真费老劲了，又是重温Git命令，又是熟悉GitHub Pages，还要了解Jekyll，学习MarkDown，选择评论系统等等等等，最后页面还弄的相当难看，clone了JB也是相当的难看，最后没办法，自己弄实在太花时间了，对UI也比较没品位，所以只能借用别人的风格了，最后选的是[Xuewen Pan's blog](http://www.winfirm.cn/) [(source)](https://github.com/panxw/panxw.github.com)这个样式，然后自己改了一下，最后，经过一天多的努力，终于搞定了，先这样吧，以后有更好的再说，当然也欢迎各位高人帮忙优化。
