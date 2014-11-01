@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "分类：Categories"
+title: "分类 - theice的编程学习博客"
 ---
 <ul class="list-unstyled">
 {% for cat in site.categories %} 

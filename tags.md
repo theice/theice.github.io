@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Tags
+title: "标签 - theice的编程学习博客"
 ---
 <div>
 {% for tag in site.tags %} 
