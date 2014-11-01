@@ -5,11 +5,9 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <title>
-      {{ page.title }}
-    </title>
+    <meta name="description" content="{{ page.title }}">
+    <meta name="author" content="{{ site.author.name }}">
+    <title>{{ page.title }}</title>
     <!-- Bootstrap Core CSS -->
     <link href="/css/bootstrap.min.css" rel="stylesheet">
     <!-- Custom CSS -->
@@ -44,7 +42,7 @@
             </span>
           </button>
           <a class="navbar-brand" href="/index.html">
-            Xuewen Pan's Blog
+            {{ site.title }}
           </a>
         </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -88,10 +86,6 @@
               相关链接
             </h4>
             {% include links.html %} 
-          </div>
-          <!-- Side Widget Well -->
-          <div class="well">
-            {% include adsense.html %} 
           </div>
         </div>
       </div>
