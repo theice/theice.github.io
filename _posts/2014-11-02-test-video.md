@@ -16,7 +16,7 @@ video: true
 </video>
 
 要想增加视频功能，请发布文章时在md文件的头部增加一行：
-{% highlight Apache config files linenos %}
+{% highlight html linenos %}
 video: true
 {% endhighlight %}
 
