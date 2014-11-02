@@ -10,6 +10,7 @@ timezone: Asia/Shanghai
 encoding: utf-8
 
 # 语法高亮，For more see: http://pygments.org/
+# highlighter: rouge
 highlighter: pygments
 
 # 分页设置：http://jekyllrb.com/docs/pagination/
