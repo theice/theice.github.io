@@ -27,6 +27,16 @@
 	<link href="http://vjs.zencdn.net/4.9/video-js.css" rel="stylesheet">
 	<script src="http://vjs.zencdn.net/4.9/video.js"></script>
 	{% endif %}
+	{% if page.audio == true %}
+	<link rel="stylesheet" href="/css/audio.css" />
+	<script src="/js/audioplayer.min.js"></script>
+	<script>
+		$( function()
+		{
+			$( 'audio' ).audioPlayer();
+		});
+	</script>
+	{% endif %}
   </head>
   
   <body>
