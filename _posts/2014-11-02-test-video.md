@@ -11,8 +11,8 @@ audio: true
 
 #### 视频
 
-<video id="example_video_1" class="video-js vjs-default-skin" data-setup='{ "controls": true, "autoplay": false, "preload": "auto", "poster": "http://video-js.zencoder.com/oceans-clip.png", "width": "100%", "height": 264 }'>
- <source src="http://video-js.zencoder.com/oceans-clip.mp4" type='video/mp4' />
+<video id="demo_video_1" class="video-js vjs-default-skin" data-setup='{ "controls": true, "autoplay": false, "preload": "auto", "poster": "/video/player-bg.png", "width": "100%", "height": 264 }'>
+ <source src="/video/demo.mp4" type='video/mp4' />
  <p class="vjs-no-js">想看视频？请不要禁用JavaScript功能并使用<a href="http://videojs.com/html5-video-support/" target="_blank">支持HTML5视频的浏览器</a>。<a href="http://html5test.com/" target="_blank">测试我的浏览器</a></p>
 </video>
 
@@ -25,7 +25,7 @@ video: true
 然后在需要添加视频的地方增加视频代码：
 
 {% highlight html linenos %}
-<video id="视频id" class="video-js vjs-default-skin" data-setup='{ "controls": true, "autoplay": false, "preload": "auto", "poster": "http://video-js.zencoder.com/oceans-clip.png", "width": "100%", "height": <视频的高度，数字表示> }'>
+<video id="视频id" class="video-js vjs-default-skin" data-setup='{ "controls": true, "autoplay": false, "preload": "auto", "poster": "/video/player-bg.png", "width": "100%", "height": <视频的高度，数字表示> }'>
 	<source src="视频地址" type='video/mp4' />
 	<p class="vjs-no-js">想看视频？请不要禁用JavaScript功能并使用<a href="http://videojs.com/html5-video-support/" target="_blank">支持HTML5视频的浏览器</a>。<a href="http://html5test.com/" target="_blank">测试我的浏览器</a></p>
 </video>
@@ -34,7 +34,7 @@ video: true
 #### 音频
 
 <audio preload="auto" controls>
-	<source src="/audio/xiaopingguo.mp3" />
+	<source src="/audio/demo.mp3" />
 	<p class="vjs-no-js">想听音乐？请不要禁用JavaScript功能并使用支持HTML5的浏览器。<a href="http://html5test.com/" target="_blank">测试我的浏览器</a></p>
 </audio>
 
