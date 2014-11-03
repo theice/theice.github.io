@@ -16,8 +16,18 @@ video: true
 </video>
 
 要想增加视频功能，请发布文章时在md文件的头部增加一行：
-{% highlight html linenos %}
+
+```
 video: true
+```
+
+然后在需要添加视频的地方增加视频代码：
+
+{% highlight html linenos %}
+<video id="视频id" class="video-js vjs-default-skin" data-setup='{ "controls": true, "autoplay": false, "preload": "auto", "poster": "http://video-js.zencoder.com/oceans-clip.png", "width": "100%", "height": <视频的高度，数字表示> }'>
+ <source src="视频地址" type='video/mp4' />
+ <p class="vjs-no-js">To view this video please enable JavaScript, and consider upgrading to a web browser that <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a></p>
+</video>
 {% endhighlight %}
 
 #### 音频
