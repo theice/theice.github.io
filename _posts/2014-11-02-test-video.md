@@ -13,7 +13,7 @@ audio: true
 
 <video id="example_video_1" class="video-js vjs-default-skin" data-setup='{ "controls": true, "autoplay": false, "preload": "auto", "poster": "http://video-js.zencoder.com/oceans-clip.png", "width": "100%", "height": 264 }'>
  <source src="http://video-js.zencoder.com/oceans-clip.mp4" type='video/mp4' />
- <p class="vjs-no-js">To view this video please enable JavaScript, and consider upgrading to a web browser that <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a></p>
+ <p class="vjs-no-js">想看视频？请不要禁用JavaScript功能并使用<a href="http://videojs.com/html5-video-support/" target="_blank">支持HTML5视频的浏览器</a></p>
 </video>
 
 要想增加视频功能，请发布文章时在md文件的头部增加一行：
@@ -27,7 +27,7 @@ video: true
 {% highlight html linenos %}
 <video id="视频id" class="video-js vjs-default-skin" data-setup='{ "controls": true, "autoplay": false, "preload": "auto", "poster": "http://video-js.zencoder.com/oceans-clip.png", "width": "100%", "height": <视频的高度，数字表示> }'>
 	<source src="视频地址" type='video/mp4' />
-	<p class="vjs-no-js">To view this video please enable JavaScript, and consider upgrading to a web browser that <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a></p>
+	<p class="vjs-no-js">想看视频？请不要禁用JavaScript功能并使用<a href="http://videojs.com/html5-video-support/" target="_blank">支持HTML5视频的浏览器</a></p>
 </video>
 {% endhighlight %}
 
@@ -35,6 +35,7 @@ video: true
 
 <audio preload="auto" controls>
 	<source src="/audio/xiaopingguo.mp3" />
+	<p class="vjs-no-js">想听音乐？请不要禁用JavaScript功能并使用支持HTML5的浏览器。<a href="http://html5test.com/" target="_blank">测试我的浏览器</a></p>
 </audio>
 
 要想增加音频功能，请发布文章时在md文件的头部增加一行：
@@ -48,6 +49,7 @@ audio: true
 {% highlight html linenos %}
 <audio preload="auto" controls>
 	<source src="音频地址" />
+	<p class="vjs-no-js">想听音乐？请不要禁用JavaScript功能并使用支持HTML5的浏览器。<a href="http://html5test.com/" target="_blank">测试我的浏览器</a></p>
 </audio>
 {% endhighlight %}
 
