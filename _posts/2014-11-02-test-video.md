@@ -13,7 +13,7 @@ audio: true
 
 <video id="example_video_1" class="video-js vjs-default-skin" data-setup='{ "controls": true, "autoplay": false, "preload": "auto", "poster": "http://video-js.zencoder.com/oceans-clip.png", "width": "100%", "height": 264 }'>
  <source src="http://video-js.zencoder.com/oceans-clip.mp4" type='video/mp4' />
- <p class="vjs-no-js">想看视频？请不要禁用JavaScript功能并使用<a href="http://videojs.com/html5-video-support/" target="_blank">支持HTML5视频的浏览器</a></p>
+ <p class="vjs-no-js">想看视频？请不要禁用JavaScript功能并使用<a href="http://videojs.com/html5-video-support/" target="_blank">支持HTML5视频的浏览器</a>。<a href="http://html5test.com/" target="_blank">测试我的浏览器</a></p>
 </video>
 
 要想增加视频功能，请发布文章时在md文件的头部增加一行：
@@ -27,7 +27,7 @@ video: true
 {% highlight html linenos %}
 <video id="视频id" class="video-js vjs-default-skin" data-setup='{ "controls": true, "autoplay": false, "preload": "auto", "poster": "http://video-js.zencoder.com/oceans-clip.png", "width": "100%", "height": <视频的高度，数字表示> }'>
 	<source src="视频地址" type='video/mp4' />
-	<p class="vjs-no-js">想看视频？请不要禁用JavaScript功能并使用<a href="http://videojs.com/html5-video-support/" target="_blank">支持HTML5视频的浏览器</a></p>
+	<p class="vjs-no-js">想看视频？请不要禁用JavaScript功能并使用<a href="http://videojs.com/html5-video-support/" target="_blank">支持HTML5视频的浏览器</a>。<a href="http://html5test.com/" target="_blank">测试我的浏览器</a></p>
 </video>
 {% endhighlight %}
 
