@@ -4,6 +4,7 @@ categories: [reading]
 title: "html5音视频测试"
 tags: [音频, 视频, 日志]
 video: true
+audio: true
 ---
 
 ### 测试一下音视频的发布
@@ -31,4 +32,22 @@ video: true
 {% endhighlight %}
 
 #### 音频
-暂无
+
+<audio preload="auto" controls>
+		<source src="http://osvaldas.info/examples/audio-player-responsive-and-touch-friendly/audio.mp3" />
+</audio>
+
+要想增加音频功能，请发布文章时在md文件的头部增加一行：
+
+```
+audio: true
+```
+
+然后在需要添加音频的地方增加音频代码：
+
+{% highlight html linenos %}
+<audio preload="auto" controls>
+		<source src="音频地址" />
+</audio>
+{% endhighlight %}
+
