@@ -1,6 +1,6 @@
 ---
 layout: post
-categories: [reading]
+categories: [article]
 title: "开博题词"
 tags: [说明, 日志]
 ---

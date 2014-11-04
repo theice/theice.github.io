@@ -1,6 +1,6 @@
 ---
 layout: post
-categories: [reading]
+categories: [article]
 title: "StackEdit试用"
 tags: [StackEdit, Markdown, 日志]
 ---

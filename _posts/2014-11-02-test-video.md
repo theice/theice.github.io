@@ -1,6 +1,6 @@
 ---
 layout: post
-categories: [reading]
+categories: [article]
 title: "html5音视频测试"
 tags: [音频, 视频, 日志]
 video: true
