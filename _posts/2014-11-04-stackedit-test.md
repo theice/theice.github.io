@@ -12,19 +12,26 @@ tags: [StackEdit, Markdown, 日志]
 ----------
 
 它有以下几个**特点**：
+
 1. 开源、免费，代码寄存在GitHub上
 2. 整合Dropbox、Google Drive等，可以***自动同步***
-3. ~~还支持听录功能，我瞎吹的，哈哈~~
+3. ~~~还支持听录功能，我瞎吹的，哈哈~~~删除线不起作用
+4. <span style="text-decoration:line-through">删除线</span>
+
+- Water: H<sub>2</sub>O下标
+- E = mc<sup>2</sup>上标
 
 地址如下：[StackEdit官网](https://stackedit.io/)
 
 支持引用功能：
+
 > **Rich markdown editor**
 > 
 > StackEdit’s markdown syntax highlighting is unique. The refined text formatting of the editor helps you visualize the final rendering of your documents.
 
 还支持代码编写：
-```javascript
+
+{% highlight javascript linenos %}
 var str = 'hello';
 alert(str);
-```
+{% endhighlight %}
