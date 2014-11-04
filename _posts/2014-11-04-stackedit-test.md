@@ -1,3 +1,10 @@
+---
+layout: post
+categories: [reading]
+title: "StackEdit试用"
+tags: [StackEdit, Markdown, 日志]
+---
+
 ### 在线Markdown编辑器StackEdit试用
 
 据说他是最好用的在线md编辑器，没有之一。
