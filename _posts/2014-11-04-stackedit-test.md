@@ -12,9 +12,9 @@ tags: [StackEdit, Markdown, 日志]
 ----------
 
 它有以下几个**特点**：
- 1. 开源、免费，代码寄存在GitHub上
- 2. 整合Dropbox、Google Drive等，可以***自动同步***
- 3. ~~还支持听录功能，我瞎吹的，哈哈~~
+1. 开源、免费，代码寄存在GitHub上
+2. 整合Dropbox、Google Drive等，可以***自动同步***
+3. ~~还支持听录功能，我瞎吹的，哈哈~~
 
 地址如下：[StackEdit官网](https://stackedit.io/)
 
