@@ -42,7 +42,7 @@ Git环境配置好后，开始自行学习简单的git操作，请参考[Git教�
 
 #### 3. checkout代码至本地，并实验发布博文
 
-以上任务都完成后，开始实际操作，克隆[本博的仓库](https://github.com/theice/theice.github.io)至本地，然后在git bash命令行下运行:
+以上任务都完成后，开始实际操作，先注册[GitHub](http://github.com/)账号，这个账号也私下发给我，然后克隆[本博的仓库](https://github.com/theice/theice.github.io)至本地，然后在git bash命令行下运行:
 
 ```
 jekyll serve
