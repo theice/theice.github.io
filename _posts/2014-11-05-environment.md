@@ -51,6 +51,7 @@ jekyll serve
 至此环境搭建完成，开始学习发布博客，本博客使用Markdown语言，可根据[参考文档](http://daringfireball.net/projects/markdown/syntax)自行学习。
 
 以上都没问题后，给你们的第一个任务来了：使用自己熟悉的文本编辑器（推荐Notepad++）编写第一篇博文，然后使用Git发布出来。
+注意，Jekyll使用无BOM头的UTF-8编码来生成博客内容，所以一定要注意发布文章的格式。
 
 #### 3. 备注
 
