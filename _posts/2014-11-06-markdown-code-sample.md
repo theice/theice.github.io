@@ -5,6 +5,16 @@ title: "Markdown常用语法"
 tags: [Markdown, 日志]
 ---
 
+### 说明
+网上有很多例子和说明，官方文档也写的比较清楚，以下只是自己亲手写一下熟悉语法，另外用到时拷贝方便。
+参考：
+
+[Markdown官网](http://daringfireball.net/projects/markdown/)
+
+[Markdown中文语法说明](http://wowubuntu.com/markdown/)
+
+---
+
 #### 1. 一级标题
 
 一级标题
