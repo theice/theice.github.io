@@ -102,3 +102,9 @@ tags: [Markdown, 日志]
     [id]: /path/to/img.jpg "Title"
 	
 	限制：无法指定宽高
+
+#### 9. 视频和音频
+
+发布视频和音频请参考：
+
+[html5音视频测试](/article/2014/11/02/test-video/)
