@@ -19,13 +19,14 @@ tags: [开发环境]
 
 #### 2. 安装配置Git环境
 
-***安装Git***
+**安装Git**
+
 有以下两种方法，可以任选其一安装，也可以都安装：
 
 - [msysgit官网](http://msysgit.github.io/)直接下载安装，记得把“Git Bash”和“Git GUI”加入右键菜单，方便以后使用。
 - [GitHub for windows](https://windows.github.com/)，参照说明安装即可。这个软件包含了一套git环境和github客户端。
 
-***配置Git***
+**配置Git**
 
 如果安装的是msysgit，运行git bash用ssh方式操作git仓库时需要启动ssh-agent，请参考[Working with SSH key passphrases](https://help.github.com/articles/working-with-ssh-key-passphrases/#auto-launching-ssh-agent-on-msysgit)设置ssh key，默认路径在：
 
